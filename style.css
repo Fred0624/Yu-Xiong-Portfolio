@@ -1,0 +1,70 @@
+body {
+    background-image: url("https://drive.google.com/uc?export=view&id=1XytzXHJND2_wtaQ-tZdaT-a4gR_VYxQ_");
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.main-page {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hide {
+    display: none;
+}
+
+.profilePic {
+    max-width: 450px;
+    margin: 40px 0px 0px 0px;
+    border: 7px solid white;
+    border-radius: 100px;
+    width: 50vw;
+    flex-basis: 50%;
+}
+
+.name {
+    font-size: 50px;
+    height: 30vh;
+    flex-grow: 1;
+}
+
+.introduction {
+    font-size: 30px;
+    height: 60vh;
+    flex-grow: 1;
+}
+
+ul {
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+li {
+    display: inline;
+    padding: 0px 60px 0px 60px;
+}
+
+.navBar {
+    line-height: 2.5;
+    font-size: 25px;
+    color: white;
+    background: rgba(0, 0, 0, 0.3);
+    text-shadow: 1px 1px 1px;
+    border-radius: 10px;
+}
+
+.myContactInfo {
+    text-align: left;
+    font-size: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.contactInfo {
+    font-size: 30px;
+}
+
