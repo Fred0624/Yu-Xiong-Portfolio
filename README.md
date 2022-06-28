@@ -7,7 +7,7 @@ This portfolio inclues my bio, resume, projects and the way to contact me.
 ## Technologies used
 * HTML
 * CSS
-* nJavaScript
+* JavaScript
 
 ## Screenshots
 ![](Screen%20Shot%202022-06-27%20at%2011.24.03%20PM.png)
