@@ -1,5 +1,5 @@
 body {
-    background-image: url("https://drive.google.com/uc?export=view&id=1XytzXHJND2_wtaQ-tZdaT-a4gR_VYxQ_");
+    background-image: url("https://images.unsplash.com/photo-1480506132288-68f7705954bd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1520&q=80");
     background-size: cover;
     color: white;
     text-align: center;
@@ -10,37 +10,52 @@ body {
     flex-wrap: wrap;
 }
 
+.project-page {
+    display:flex;
+    flex-wrap: wrap;
+}
+
 .hide {
     display: none;
 }
 
 .profilePic {
     max-width: 450px;
-    margin: 40px 0px 0px 0px;
+    margin: 40px 40px 0px 40px;
     border: 7px solid white;
     border-radius: 100px;
-    width: 50vw;
-    flex-basis: 50%;
+    width: 30vw;
+    height: 40vh;
+}
+
+.intro{
+    width: 60vw;
+    height: 50vh;
+}
+
+.skills {
+    font-size: 30px;
+    color:white;
+    height:50vh;
+    width: 40vw;
 }
 
 .name {
     font-size: 50px;
-    height: 30vh;
-    flex-grow: 1;
+
 }
 
 .introduction {
     font-size: 30px;
-    height: 60vh;
-    flex-grow: 1;
 }
 
-ul {
+
+.navUl {
     padding: 15px;
     background: rgba(0, 0, 0, 0.5);
 }
 
-li {
+.navLi {
     display: inline;
     padding: 0px 60px 0px 60px;
 }
@@ -68,3 +83,57 @@ a {
     font-size: 30px;
 }
 
+a.linkedInLink:hover, a.linkedInLink:active {
+    font-size: 150%;
+}
+
+a.githubLink:hover, a.githubLink:active {
+    font-size: 150%;
+}
+
+.tic-tac-toe-pic {
+    width: 40vw;
+    margin: 40px 0px 0px 40px;
+}
+
+.projectName {
+    width: 50vw;
+    font-size: 35px;
+}
+
+.tic-tac-toe-text {
+    font-size: 30px;
+}
+
+.ticButton {
+    background-color: black;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+/* for mobile phones */
+@media screen and (max-width: 768px){
+    .main-page {
+        height: 100%;
+    }
+    .picYu {
+        height: 100%;
+        width: 100%;
+    }
+    .intro {
+        height: 33%;
+        width: 100%;
+    }
+    .skills {
+        height: 33%;
+        width: 100%;
+    }
+    
+    .project-page {
+        height: 100%;
+    }
+    .tic-tac-toe-pic, .projectName {
+        height: 50%;
+        width: 100%;
+    }
+}

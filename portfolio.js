@@ -5,6 +5,11 @@ const main = document.querySelector('.navMain')
 const contactPage = document.querySelector('.contact-page')
 const mainPage = document.querySelector('.main-page')
 const projectPage = document.querySelector('.project-page')
+const submit = document.querySelector('.submitButton')
+
+const submitHandler = function() {
+    alert('I will reply you shortly!!')
+}
 
 const mainHandler = function() {
     mainPage.classList.remove('hide')
@@ -32,3 +37,4 @@ main.addEventListener('click', mainHandler)
 contact.addEventListener('click', contactHandler)
 resume.addEventListener('click', resumeHandler)
 project.addEventListener('click', projectHandler)
+submit.addEventListener('click', submitHandler)
