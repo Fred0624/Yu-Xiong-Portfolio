@@ -10,15 +10,15 @@ This portfolio inclues my bio, resume, projects and the way to contact me.
 * nJavaScript
 
 ## Screenshots
-![](../../../Screen%20Shot%202022-06-27%20at%2011.24.03%20PM.png)
-![](../../../Screen%20Shot%202022-06-27%20at%2011.24.40%20PM.png)
-![](../../../Screen%20Shot%202022-06-27%20at%2011.25.05%20PM.png)
-![](../../../Screen%20Shot%202022-06-27%20at%2011.25.33%20PM.png)
+![](Screen%20Shot%202022-06-27%20at%2011.24.03%20PM.png)
+![](Screen%20Shot%202022-06-27%20at%2011.24.40%20PM.png)
+![](Screen%20Shot%202022-06-27%20at%2011.25.05%20PM.png)
+![](Screen%20Shot%202022-06-27%20at%2011.25.33%20PM.png)
 
 ## Wireframe
-![](../../../Screen%20Shot%202022-06-27%20at%2011.27.33%20PM.png)
-![](../../../Screen%20Shot%202022-06-27%20at%2011.27.43%20PM.png)
-![](../../../Screen%20Shot%202022-06-27%20at%2011.27.56%20PM.png)
+![](Screen%20Shot%202022-06-27%20at%2011.27.33%20PM.png)
+![](Screen%20Shot%202022-06-27%20at%2011.27.43%20PM.png)
+![](Screen%20Shot%202022-06-27%20at%2011.27.56%20PM.png)
 
 ## User Stories
 * As a friend just met, I want to know him/her background more, which I can find in his/her bio.
